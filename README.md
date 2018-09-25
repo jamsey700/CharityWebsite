@@ -1,2 +1,2 @@
-# CollegeProject
-Belfast Metropolitan College Website Development Project for class
+# Belfast Metropolitan College Website Development Project for class
+# Currently work in progress
