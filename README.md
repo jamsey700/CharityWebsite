@@ -1,2 +1,2 @@
-# Belfast Metropolitan College Website Development Project for class
+# A Website Development Project for my course
 # Currently work in progress
