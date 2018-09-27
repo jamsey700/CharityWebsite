@@ -4,6 +4,11 @@ body{
   overflow-x:hidden;
 }
 
+#title{
+	font-family: verdana, arial, helvetica, sans-serif;
+	Color: #007FFE;
+}
+
 .navbar{
   background-color:#3b5998;
   overflow:hidden;
