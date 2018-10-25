@@ -10,62 +10,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="css/style.css">
-  <script src="docs/javascript"></script>
+  <script src="docs/javascript.js"></script>
   
   <title>Good Causes Inc</title>
 </head> <!-- End of Head Tag -->
 
 <body>
 
-<div id="main">
+<header>
+<div class="container">
+  <div id="branding">
+    <h1>Good Causes <span class="highlight">Inc</span></h1>
+  </div> <!-- End of logo/title -->
 
+<!-- Will use side bar later
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
-            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
         </svg>
       </a>
-    </span> <!-- End of SVG box menu drawing -->
-	
-    <ul class="navbar-nav">
-	  <li><a href="index.html">What we do</a></li>
-      <li><a href="news.html">News and Events</a></li>
-      <li><a href="involved.html">Get involved</a></li>
-      <li><a href="promotional.html">Promotional</a></li>
+    </span> -->
+<nav>
+    <ul>
+	  <li class="current"><a href="index.html">What we do</a></li>
+    <li><a href="news.html">News and Events</a></li>
+    <li><a href="involved.html">Get involved</a></li>
+    <li><a href="promotional.html">Promotional</a></li>
 	  <li><a href="social.html">Social</a></li>
 	  <li><a href="contact.html">Contact Us</a></li>
     </ul>
   </nav> <!-- End of navigation bar -->
 
+<!-- Will use side bar later
   <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
 	<a href="index.html">What we do</a>
-    <a href="news.html">News and Events</a>
-    <a href="involved.html">Get involved</a>
-    <a href="promotional.html">Promotional</a>
+  <a href="news.html">News and Events</a>
+  <a href="involved.html">Get involved</a>
+  <a href="promotional.html">Promotional</a>
 	<a href="social.html">Social</a>
 	<a href="contact.html">Contact Us</a>
-  </div> <!-- End of side bar -->
-  
-  <h1 id="title">Contact Us</h1>
-  
-  <p>Contact</p>
-  
-  <form method="GET" action="docs/phpscript.php" id="contact">
-	Name:
-	<input type="text" name="firstname"> <br />
-	Email Address:
-	<input type="text" name="email">
-	Message:
-	<input type="textarea"
-  
-  </form>
+  </div> -->
+</header> <!-- End of header -->
+
+<section id="newsletter">
+  <div class="container">
+    <h1>Subscribe To Our Newsletter</h1>
+    <form>
+      <input type="email" placeholder="Enter Email">
+      <button type="submit" class="button1">Subscribe</button>
+    </form>
+  </div>
+</section> <!-- End of Newletter -->
+
+<section id="boxes">
+  <div class="container">
+    <form action="mailto:SMI18140222@belfastmet.ac.uk" method="POST">
+
+	<p>Name</p> <input type="text" name="name">
+	<p>Email</p> <input type="text" name="email">
+	<p>Phone</p> <input type="text" name="phone">
+
+	<p>Request Phone Call:</p>
+	Yes:<input type="checkbox" value="Yes" name="call"><br />
+	No:<input type="checkbox" value="No" name="call"><br />
+
+	<p>Priority</p>
+	<select name="priority" size="1">
+	<option value="Low">Low</option>
+	<option value="Normal">Normal</option>
+	<option value="High">High</option>
+	<option value="Emergency">Emergency</option>
+	</select>
+	<br />
+
+	<p>Type</p>
+	<select name="type" size="1">
+	<option value="feedback">Feedback</option>
+	<option value="issue">Issue</option>
+	</select>
+	<br />
+
+	<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+	<input type="submit" value="Send"><input type="reset" value="Clear">
+</form> <!-- End of contact form -->
   
   <br />
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2310.881078959619!2d-5.912406384135421!3d54.60608758026234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108f822d48e61%3A0x93c71b821ec976f!2sBelfast+Metropolitan+College+-+Titanic+Quarter+Campus!5e0!3m2!1sen!2suk!4v1539176928691" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</section> <!-- End of Section Donation Boxes -->
+
+<footer>
+<p>Good Causes Inc Copyright Protection &copy; 2018</p>
+</footer> <!-- End of copyright -->
 
 </div> <!-- End of main div -->
 
