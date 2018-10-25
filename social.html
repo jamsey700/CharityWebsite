@@ -10,53 +10,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <link rel="stylesheet" href="css/style.css">
-  <script src="docs/javascript"></script>
+  <script src="docs/javascript.js"></script>
   
   <title>Good Causes Inc</title>
 </head> <!-- End of Head Tag -->
 
 <body>
 
-<div id="main">
+<header>
+<div class="container">
+  <div id="branding">
+    <h1>Good Causes <span class="highlight">Inc</span></h1>
+  </div> <!-- End of logo/title -->
 
+<!-- Will use side bar later
   <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
-            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+          <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+          <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+          <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
         </svg>
       </a>
-    </span> <!-- End of SVG box menu drawing -->
-	
-    <ul class="navbar-nav">
-	  <li><a href="index.html">What we do</a></li>
-      <li><a href="news.html">News and Events</a></li>
-      <li><a href="involved.html">Get involved</a></li>
-      <li><a href="promotional.html">Promotional</a></li>
+    </span> -->
+<nav>
+    <ul>
+	  <li class="current"><a href="index.html">What we do</a></li>
+    <li><a href="news.html">News and Events</a></li>
+    <li><a href="involved.html">Get involved</a></li>
+    <li><a href="promotional.html">Promotional</a></li>
 	  <li><a href="social.html">Social</a></li>
 	  <li><a href="contact.html">Contact Us</a></li>
     </ul>
   </nav> <!-- End of navigation bar -->
 
+<!-- Will use side bar later
   <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
 	<a href="index.html">What we do</a>
-    <a href="news.html">News and Events</a>
-    <a href="involved.html">Get involved</a>
-    <a href="promotional.html">Promotional</a>
+  <a href="news.html">News and Events</a>
+  <a href="involved.html">Get involved</a>
+  <a href="promotional.html">Promotional</a>
 	<a href="social.html">Social</a>
 	<a href="contact.html">Contact Us</a>
-  </div> <!-- End of side bar -->
-  
-  <div id="header">
-   
-   <h1 id="title">Social</h1>
-   
+  </div> -->
+</header> <!-- End of header -->
+
+<section id="newsletter">
+  <div class="container">
+    <h1>Subscribe To Our Newsletter</h1>
+    <form>
+      <input type="email" placeholder="Enter Email">
+      <button type="submit" class="button1">Subscribe</button>
+    </form>
   </div>
-  
-   <p>PLACE HOLDER</p>
+</section> <!-- End of Newletter -->
+
+<section id="boxes">
+  <div class="container">
+    <p>PLACEHOLDER TEXT<p>
+  </div>
+</section> <!-- End of Section Donation Boxes -->
+
+<footer>
+<p>Good Causes Inc Copyright Protection &copy; 2018</p>
+</footer> <!-- End of copyright -->
 
 </div> <!-- End of main div -->
 
