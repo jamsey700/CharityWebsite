@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="docs/javascript.js"></script>
   
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  
   <title>Good Causes Inc</title>
 </head> <!-- End of Head Tag -->
 
@@ -65,19 +67,20 @@
       <button type="submit" class="button1">Subscribe</button>
     </form>
   </div>
-</section> <!-- End of Newletter -->
+</section> <!-- End of Newsletter -->
 
-<section id="boxes">
-  <div class="container">
+  <div class="form">
+  <div>
     <form action="mailto:SMI18140222@belfastmet.ac.uk" method="POST">
-
-	<p>Name</p> <input type="text" name="name">
-	<p>Email</p> <input type="text" name="email">
-	<p>Phone</p> <input type="text" name="phone">
+	<input type="hidden" name="source" value="From Good Causes Inc Form">
+	
+	<p>Name</p> <input type="text" required name="name" placeholder="Enter Your Name">
+	<p>Email</p> <input type="text" required name="email" placeholder="Enter Your Email">
+	<p>Phone</p> <input type="text" required name="phone" placeholder="Enter Your Phone Number">
 
 	<p>Request Phone Call:</p>
-	Yes:<input type="checkbox" value="Yes" name="call"><br />
-	No:<input type="checkbox" value="No" name="call"><br />
+	Yes:<input type="radio" value="Yes" name="call"><br />
+	No:<input type="radio" value="No" name="call"><br />
 
 	<p>Priority</p>
 	<select name="priority" size="1">
@@ -95,14 +98,35 @@
 	</select>
 	<br />
 
-	<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+	<p>Message</p><textarea name="message" required rows="6" cols="28" placeholder="Enter Your Message Here"></textarea><br />
 	<input type="submit" value="Send"><input type="reset" value="Clear">
 </form> <!-- End of contact form -->
-  
-  <br />
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2310.881078959619!2d-5.912406384135421!3d54.60608758026234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108f822d48e61%3A0x93c71b821ec976f!2sBelfast+Metropolitan+College+-+Titanic+Quarter+Campus!5e0!3m2!1sen!2suk!4v1539176928691" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+  <div id="map">
+	<h2>Full Contact Details</h2>
+	
+	<a href="" class="tele">
+	<i class="fa fa-phone"></i>
+	028 90 342927
+	</a>
+	<br />
+	
+	<a href="mailto:SMI18140222@belfastmet.ac.uk" class="emailcon">
+	<i class="fa fa-envelope"></i>
+	James Smith
+	</a>
+	<br />
+	
+	<address>
+	<i class="fa fa-map-marker"></i>
+	"Good Causes Inc Titanic Quarter Campus, 7 Queens Rd, Belfast BT3 9DT"
+	</address>
+	<br />
+	
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2310.881078959619!2d-5.912406384135421!3d54.60608758026234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108f822d48e61%3A0x93c71b821ec976f!2sBelfast+Metropolitan+College+-+Titanic+Quarter+Campus!5e0!3m2!1sen!2suk!4v1539176928691" width="600" height="450" frameborder="0" style="border:0" alt="Google Maps of location of college campus" allowfullscreen></iframe>
   </div>
-</section> <!-- End of Section Donation Boxes -->
+</div>
 
 <footer>
 <p>Good Causes Inc Copyright Protection &copy; 2018</p>
