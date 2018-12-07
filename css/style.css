@@ -107,6 +107,61 @@ header a:hover{
 	padding-top: 10px;
 }
 
+.form{
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 1em;
+	width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.tele{
+	font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+	text-decoration: none;
+}
+
+.tele i{
+	color: #35424a;
+	width: 25px;
+}
+
+.emailcon{
+	font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+	text-decoration: none;
+}
+
+.emailcon i{
+	color: #35424a;
+	width: 25px;
+}
+
+address{
+	font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+	text-decoration: none;
+}
+
+address i{
+	color: #35424a;
+	width: 20px;
+}
+
+#map{
+	padding-top: 15px;
+}
+
 /* Newsletter */
 #newsletter{
   padding:0px;
