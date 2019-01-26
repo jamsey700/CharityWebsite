@@ -1,0 +1,364 @@
+body {
+  font: 15px/1.5 Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.button1 {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.donatebtn {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+#showcase {
+  min-height: 400px;
+  background: url("../img/1.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  grid-column-gap: 1em;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#img2 {
+  padding-top: 10px;
+}
+
+.form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1em;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.form-style-2{
+	max-width: 500px;
+	padding: 20px 12px 10px 20px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form-style-2-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-style-2 label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-style-2 span.required{
+	color:red;
+}
+.form-style-2 .tel-number-field{
+	width: 40px;
+	text-align: center;
+}
+.form-style-2 input.input-field, .form-style-2 .select-field{
+	width: 48%;	
+}
+.form-style-2 input.input-field, 
+.form-style-2 .tel-number-field, 
+.form-style-2 .textarea-field, 
+ .form-style-2 .select-field{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #C2C2C2;
+	box-shadow: 1px 1px 4px #EBEBEB;
+	-moz-box-shadow: 1px 1px 4px #EBEBEB;
+	-webkit-box-shadow: 1px 1px 4px #EBEBEB;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 7px;
+	outline: none;
+}
+.form-style-2 .input-field:focus, 
+.form-style-2 .tel-number-field:focus, 
+.form-style-2 .textarea-field:focus,  
+.form-style-2 .select-field:focus{
+	border: 1px solid #0C0;
+}
+.form-style-2 .textarea-field{
+	height:100px;
+	width: 55%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button]{
+	border: none;
+	padding: 8px 15px 8px 15px;
+	background: #FF8500;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	-moz-box-shadow: 1px 1px 4px #DADADA;
+	-webkit-box-shadow: 1px 1px 4px #DADADA;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.form-style-2 input[type=submit]:hover,
+.form-style-2 input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+}
+
+.formp{
+	font: 18px Helvetica,sans-serif;
+}
+
+.tele {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.tele i {
+  color: #35424a;
+  width: 25px;
+}
+
+.emailcon {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.emailcon i {
+  color: #35424a;
+  width: 25px;
+}
+
+address {
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+address i {
+  color: #35424a;
+  width: 20px;
+}
+
+#map {
+  padding-top: 15px;
+}
+
+#newsletter {
+  padding: 0px;
+  color: #ffffff;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid #eee;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#boxes .box:hover {
+  -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+#boxes .header {
+  background-color: #35424a;
+  color: white;
+  font-size: 25px;
+}
+
+#boxes li {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+}
+
+footer {
+  padding: 5px;
+  margin-top: 5px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  header {
+    padding-bottom: 20px;
+  }
+  header #branding {
+    padding-bottom: 20px;
+  }
+  header nav {
+    padding-bottom: 20px;
+  }
+  header nav li {
+    padding-bottom: 20px;
+  }
+  #newsletter h1 {
+    padding-bottom: 20px;
+  }
+  #newsletter form {
+    padding-bottom: 20px;
+  }
+  #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+  #boxes .box {
+    padding-bottom: 20px;
+  }
+  #boxes .header {
+    padding-bottom: 20px;
+  }
+  #boxes li {
+    padding-bottom: 20px;
+  }
+  #showcase h1 {
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=sass.css.map */
