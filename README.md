@@ -10,4 +10,4 @@ Client is: Good Causes Inc. (fictional).
 
 Website must be professional looking, must be up to current web design standards, must have effective use of HTML, CSS, JavaScript and PHP, must have a clear nav, layout and design, must have contact details, must have contact form, must have promotional material such as animation.
 
-Languages will be in HTML, CSS, JavaScript and PHP.
+Languages will be in HTML, CSS, JavaScript and SASS.
