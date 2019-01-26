@@ -2,19 +2,20 @@
 
 <html lang="en">
 
+<!-- Standard SEO -->
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="James">
+  <meta name="description" content="Good Causes Inc is a charity, non-profit organization purely tackling malnutrition around the world.">
+  <meta name="keywords" content="charity, non-profit, organization, malnutrition, serve acute malnutrition, starving, hungry children, water, food,">
+  <meta name="author" content="James Smith">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sass.css">
   <script src="docs/javascript.js"></script>
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   
-  <title>Good Causes Inc</title>
+  <title>Good Causes Inc | Contact Us</title>
 </head> <!-- End of Head Tag -->
 
 <body>
@@ -24,18 +25,7 @@
   <div id="branding">
     <h1>Good Causes <span class="highlight">Inc</span></h1>
   </div> <!-- End of logo/title -->
-
-<!-- Will use side bar later
-  <nav class="navbar">
-    <span class="open-slide">
-      <a href="#" onclick="openSlideMenu()">
-        <svg width="30" height="30">
-          <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
-          <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
-          <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
-        </svg>
-      </a>
-    </span> -->
+  
 <nav>
     <ul>
 	<li><a href="index.html">What we do</a></li>
@@ -46,17 +36,6 @@
 	<li class="current"><a href="contact.html">Contact Us</a></li>
     </ul>
   </nav> <!-- End of navigation bar -->
-
-<!-- Will use side bar later
-  <div id="side-menu" class="side-nav">
-  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-	<a href="index.html">What we do</a>
-  <a href="news.html">News and Events</a>
-  <a href="involved.html">Get involved</a>
-  <a href="promotional.html">Promotional</a>
-	<a href="social.html">Social</a>
-	<a href="contact.html">Contact Us</a>
-  </div> -->
 </header> <!-- End of header -->
 
 <section id="newsletter">
@@ -70,37 +49,21 @@
 </section> <!-- End of Newsletter -->
 
   <div class="form">
-  <div>
-    <form action="mailto:SMI18140222@belfastmet.ac.uk" method="POST">
-	<input type="hidden" name="source" value="From Good Causes Inc Form">
-	
-	<p>Name</p> <input type="text" required name="name" placeholder="Enter Your Name">
-	<p>Email</p> <input type="text" required name="email" placeholder="Enter Your Email">
-	<p>Phone</p> <input type="text" required name="phone" placeholder="Enter Your Phone Number">
+<div class="form-style-2">
+<div class="form-style-2-heading">Provide your information</div>
+<form action="mailto: SMI18140222@belfastmet.ac.uk" method="post">
+<label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+<label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+<label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+<label for="field4"><span>Regarding</span><select name="field4" class="select-field">
+<option value="General Question">General</option>
+<option value="Technical Issue">Technical Issue</option>
+<option value="Sponsorship">Sponsorship</option>
+</select></label>
+<label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
 
-	<p>Request Phone Call:</p>
-	Yes:<input type="radio" value="Yes" name="call"><br />
-	No:<input type="radio" value="No" name="call"><br />
-
-	<p>Priority</p>
-	<select name="priority" size="1">
-	<option value="Low">Low</option>
-	<option value="Normal">Normal</option>
-	<option value="High">High</option>
-	<option value="Emergency">Emergency</option>
-	</select>
-	<br />
-
-	<p>Type</p>
-	<select name="type" size="1">
-	<option value="feedback">Feedback</option>
-	<option value="issue">Issue</option>
-	</select>
-	<br />
-
-	<p>Message</p><textarea name="message" required rows="6" cols="28" placeholder="Enter Your Message Here"></textarea><br />
-	<input type="submit" value="Send"><input type="reset" value="Clear">
-</form> <!-- End of contact form -->
+<label><span> </span><input type="submit" value="Submit" /></label>
+</form> <!-- End of Contact Us Form -->
 </div>
 
   <div id="map">
@@ -120,7 +83,7 @@
 	
 	<address>
 	<i class="fa fa-map-marker"></i>
-	"Good Causes Inc Titanic Quarter Campus, 7 Queens Rd, Belfast BT3 9DT"
+	Good Causes Inc Titanic Quarter Campus, 7 Queens Rd, Belfast BT3 9DT
 	</address>
 	<br />
 	
@@ -129,7 +92,7 @@
 </div>
 
 <footer>
-<p>Good Causes Inc Copyright Protection &copy; 2018</p>
+<p>Good Causes Inc is a charity, non-profit organization purely funded from our supporters, Donations and contributions are tax-deductible as allowed by law &copy; 2018</p>
 </footer> <!-- End of copyright -->
 
 </div> <!-- End of main div -->
