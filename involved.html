@@ -9,7 +9,7 @@
   <meta name="keywords" content="charity, non-profit, organization, malnutrition, serve acute malnutrition, starving, hungry children, water, food,">
   <meta name="author" content="James Smith">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/sass.css">
   <script src="docs/javascript.js"></script>
   
@@ -18,6 +18,8 @@
 
 <body>
 
+<noscript>Your browser does not support JavaScript!</noscript> <!-- Alert users who does not have JavaScript Enabled -->
+
 <header>
 <div class="container">
   <div id="branding">
@@ -25,38 +27,112 @@
   </div> <!-- End of logo/title -->
 
 <nav>
-    <ul>
+  <ul>
 	<li><a href="index.html">What we do</a></li>
     <li><a href="news.html">News and Events</a></li>
     <li class="current"><a href="involved.html">Get involved</a></li>
     <li><a href="promotional.html">Promotional</a></li>
 	<li><a href="social.html">Social</a></li>
 	<li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav> <!-- End of navigation bar -->
+  </ul>
+</nav> <!-- End of navigation bar -->
 </header> <!-- End of header -->
 
+<div class="container">
+  <p id="toptext">
+    Get Involved to End World Hunger! Regardless of your location on the map, age, schedule or resources, we believe you can make a positive difference in the fight against hunger. Even seemingly small contributions can add up to a BIG impact. We’d like to invite you to take action, donate and join our growing movement to end hunger worldwide by 2030. Here are a few ways you can get involved.
+  </p>
+</div>
+
+<div class="middleboxes">
+    <div>
+      <img src="img/kids.jpg" width="90%" height="90%" alt="Bunch of poor kids around each other with happy expressions">
+    </div>
+    <div>
+      <H2>DONATE</H2>
+      <p class="middletext">Make an immediate impact by giving to Good Causes Inc. Financial contributions help us reach even more people around the world. Your donation will go toward the area of greatest need, which may include community empowerment, direct feeding programs or other life-changing programs.</p>
+      <button class="middlebtn" onclick="window.location.href='#donation'">DONATE</button>
+    </div>
+    <div>
+      <H2>ENGAGE YOUR WORKPLACE</H2>
+      <p class="middletext">Good Causes Inc provides many opportunities to engage our corporate partners and their employees  in our mission to end hunger. Our Corporate Team works with companies to help them reach their CSR and employee engagement goals as we serve those in need around the world. We’d love to speak with you about partnership opportunities.</p>
+      <button class="middlebtn" onclick="window.location.href='#engage'">READ MORE</button>
+    </div>
+    <div>
+      <img src="img/engage.jpg" width="90%" height="90%" alt="Corporate partners from heinz helping to box food for good causes inc">
+    </div>
+    <div>
+      <img src="img/volunteerbox.jpg" width="90%" height="90%" alt="Volunteers in a warehouse boxing food">
+    </div>
+    <div>
+      <H2>VOLUNTEER</H2>
+      <p class="middletext">Volunteers are one of the essential resources Good Causes Inc needs to help realize the vision of a world without hunger. Each year, thousands of volunteers join Good Causes Inc not only to package meals, but to support warehouse operations and assist with administrative duties. Find a Good Causes Inc location near you to find out how get involved and end world hunger.</p>
+      <button class="middlebtn" onclick="window.location.href='#volunteer'">VOLUNTEER</button>
+    </div>
+    <div>
+      <H2>JOURNEY TO SERVE</H2>
+      <p class="middletext">Through Journey to Serve, Good Causes Inc's partnership with Global Volunteers, you can join like-minded people from all walks of life on a journey to explore how you can deepen your global impact on a service trip abroad. Help end hunger, create food security, improve nutrition and promote sustainable agriculture on a global scale — all in just one to two weeks.</p>
+      <button class="middlebtn" onclick="window.location.href='#journey'">READ MORE</button>
+    </div>
+    <div>
+      <img src="img/pouringwater.jpg" width="90%" height="90%" alt="Volunteers giving water to starving children">
+    </div>
+</div> <!-- End of middle content boxes -->
+
+<div id="donation" class="modalDialog">
+    <div>
+      <a href="#close" title="Close" class="close">X</a>
+      <h2>DONATE</h2>
+      <p>Make an immediate impact by giving to Good Causes Inc. Financial contributions help us reach even more people around the world. Your donation will go toward the area of greatest need, which may include community empowerment, direct feeding programs or other life-changing programs.</p>
+    </div>
+  </div> <!-- End of Pop-up #1 -->
+  
+<div id="engage" class="modalDialog">
+    <div>
+      <a href="#close" title="Close" class="close">X</a>
+      <h2>ENGAGE YOUR WORKPLACE</h2>
+      <p>Good Causes Inc provides many opportunities to engage our corporate partners and their employees  in our mission to end hunger. Our Corporate Team works with companies to help them reach their CSR and employee engagement goals as we serve those in need around the world. We’d love to speak with you about partnership opportunities.</p>
+    </div>
+</div> <!-- End of Pop-up #2 -->
+
+<div id="volunteer" class="modalDialog">
+    <div>
+      <a href="#close" title="Close" class="close">X</a>
+      <h2>VOLUNTEER</h2>
+      <p>Volunteers are one of the essential resources Good Causes Inc needs to help realize the vision of a world without hunger. Each year, thousands of volunteers join Good Causes Inc not only to package meals, but to support warehouse operations and assist with administrative duties. Find a Good Causes Inc location near you to find out how get involved and end world hunger.</p>
+    </div>
+  </div> <!-- End of Pop-up #3 -->
+
+<div id="journey" class="modalDialog">
+    <div>
+      <a href="#close" title="Close" class="close">X</a>
+      <h2>JOURNEY TO SERVE</h2>
+      <p>Through Journey to Serve, Good Causes Inc's partnership with Global Volunteers, you can join like-minded people from all walks of life on a journey to explore how you can deepen your global impact on a service trip abroad. Help end hunger, create food security, improve nutrition and promote sustainable agriculture on a global scale — all in just one to two weeks.</p>
+    </div>
+</div> <!-- End of Pop-up #4 -->
+
+<footer>
 <section id="newsletter">
   <div class="container">
     <h1>Subscribe To Our Newsletter</h1>
     <form>
-      <input type="email" placeholder="Enter Email">
-      <button type="submit" class="button1">Subscribe</button>
+      <input type="email" placeholder="Enter Email" required>
+      <button type="submit" class="button1" value="submit">Subscribe</button>
     </form>
   </div>
 </section> <!-- End of Newsletter -->
-
-<section id="boxes">
-  <div class="container">
-    <p>PLACEHOLDER TEXT<p>
-  </div>
-</section> <!-- End of Section Donation Boxes -->
-
-<footer>
 <p>Good Causes Inc is a charity, non-profit organization purely funded from our supporters, Donations and contributions are tax-deductible as allowed by law &copy; 2018</p>
+<div class="footer-social-icons">
+  <h4 class="_14">Follow us on</h4>
+  <ul class="social-icons">
+    <li><a href="https://www.facebook.com/ActionAgainstHungerUK" target="_blank" class="social-icon"> <i class="fab fa-facebook-square"></i></a></li>
+    <li><a href="https://twitter.com/ACF_UK" target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.youtube.com/user/ACFUK" target="_blank" class="social-icon"> <i class="fab fa-youtube"></i></a></li>
+    <li><a href="https://uk.linkedin.com/company/action-against-hunger-acf-uk" target="_blank" class="social-icon"> <i class="fab fa-linkedin"></i></a></li>
+    <li><a href="https://plus.google.com/+ACFUK" target="_blank" class="social-icon"> <i class="fab fa-google-plus"></i></a></li>
+  </ul>
+</div> <!-- End of Social Media Icons -->
 </footer> <!-- End of copyright -->
-
-</div> <!-- End of main div -->
 
 </body> <!-- End of body Tag -->
 
