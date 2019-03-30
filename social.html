@@ -9,14 +9,20 @@
   <meta name="keywords" content="charity, non-profit, organization, malnutrition, serve acute malnutrition, starving, hungry children, water, food,">
   <meta name="author" content="James Smith">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/sass.css">
   <script src="docs/javascript.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   
   <title>Good Causes Inc | Social</title>
 </head> <!-- End of Head Tag -->
 
 <body>
+
+<noscript>Your browser does not support JavaScript!</noscript> <!-- Alert users who does not have JavaScript Enabled -->
 
 <header>
 <div class="container">
@@ -25,38 +31,108 @@
   </div> <!-- End of logo/title -->
 
 <nav>
-    <ul>
+  <ul>
 	<li><a href="index.html">What we do</a></li>
     <li><a href="news.html">News and Events</a></li>
     <li><a href="involved.html">Get involved</a></li>
     <li><a href="promotional.html">Promotional</a></li>
 	<li class="current"><a href="social.html">Social</a></li>
 	<li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav> <!-- End of navigation bar -->
+  </ul>
+</nav> <!-- End of navigation bar -->
 </header> <!-- End of header -->
 
+<div class="container">
+  <div class="team">
+    <h2>Check Out Our Wonderful Team In These Images!</h2>
+  </div>
+</div>
+
+<div class="slideshow">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/africa.jpg" alt="Volunteer with bunch of African children standing around." style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="img/africa2.jpg" alt="Volunteer reading a book with bunch of African children outside building." style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="img/africa3.jpg" alt="Volunteer posing with bunch of African children in village." style="width:100%;">
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div> <!-- End Of SlideShow -->
+
+<div class="team">
+  <h2>Meet The Children</h2>
+</div> <!-- End Of Meet The Children Header -->
+
+<section id="boxes">
+    <div class="container">
+      <div class="box">
+      <ul>
+        <img src="img/kid1.png" width="300" height="250" alt="Four year old dragging bag of food through dirt and garbage" class="imgport">
+      </ul>
+        <h2>Jabari, Aged: 4</h2>
+        <p class="middletext">Jabari has to walk for miles to collect a bag of food and drag it along the ground through dirt, gravel, stone, trash and garbage left on the side of the road and on the path. Once Javari arrives at his "home" its nothing but a pile of rubbish that he lays on as a bed and eats the food raw from the bag.</p>
+      </div>
+      <div class="box">
+      <ul>
+          <img src="img/kid2.jpg" width="300" height="250" alt="Three year old sitting in trash on the street" class="imgport">
+      </ul>
+        <h2>Lebna, Aged: 3</h2>
+        <p class="middletext">Lebna has no parents and has been living in the streets without food for months. He has to live amongst the garbage on the ground, he has no way of clean water to clean himself or to drink. He might not even survive another few days please help.</p>
+      </div>
+      <div class="box">
+      <ul>
+          <img src="img/kid3.jpg" width="300" height="250" alt="One year old sitting on ground outside impoverished and malnutrished with a pan" class="imgport">
+      </ul>
+        <h2>Panya, Aged: 1</h2>
+        <p class="middletext">Panya has been living in the streets with other like minded impoverished children of which Panya needed to beg for food and water from people and shes only one year old which is shocking. Please help Panya with food and water with your donation.</p>
+      </div>
+</section> <!-- End of Meet The Children Boxes -->
+
+<footer>
 <section id="newsletter">
   <div class="container">
     <h1>Subscribe To Our Newsletter</h1>
     <form>
-      <input type="email" placeholder="Enter Email">
-      <button type="submit" class="button1">Subscribe</button>
+      <input type="email" placeholder="Enter Email" required>
+      <button type="submit" class="button1" value="submit">Subscribe</button>
     </form>
   </div>
 </section> <!-- End of Newsletter -->
-
-<section id="boxes">
-  <div class="container">
-    <p>PLACEHOLDER TEXT<p>
-  </div>
-</section> <!-- End of Section Donation Boxes -->
-
-<footer>
 <p>Good Causes Inc is a charity, non-profit organization purely funded from our supporters, Donations and contributions are tax-deductible as allowed by law &copy; 2018</p>
+<div class="footer-social-icons">
+  <h4 class="_14">Follow us on</h4>
+  <ul class="social-icons">
+    <li><a href="https://www.facebook.com/ActionAgainstHungerUK" target="_blank" class="social-icon"> <i class="fab fa-facebook-square"></i></a></li>
+    <li><a href="https://twitter.com/ACF_UK" target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.youtube.com/user/ACFUK" target="_blank" class="social-icon"> <i class="fab fa-youtube"></i></a></li>
+    <li><a href="https://uk.linkedin.com/company/action-against-hunger-acf-uk" target="_blank" class="social-icon"> <i class="fab fa-linkedin"></i></a></li>
+    <li><a href="https://plus.google.com/+ACFUK" target="_blank" class="social-icon"> <i class="fab fa-google-plus"></i></a></li>
+  </ul>
+</div> <!-- End of Social Media Icons -->
 </footer> <!-- End of copyright -->
-
-</div> <!-- End of main div -->
 
 </body> <!-- End of body Tag -->
 
