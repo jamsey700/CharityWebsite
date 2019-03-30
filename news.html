@@ -9,14 +9,16 @@
   <meta name="keywords" content="charity, non-profit, organization, malnutrition, serve acute malnutrition, starving, hungry children, water, food,">
   <meta name="author" content="James Smith">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/sass.css">
   <script src="docs/javascript.js"></script>
-  
+
   <title>Good Causes Inc | News&Events </title>
 </head> <!-- End of Head Tag -->
 
 <body>
+
+<noscript>Your browser does not support JavaScript!</noscript> <!-- Alert users who does not have JavaScript Enabled -->
 
 <header>
 <div class="container">
@@ -25,38 +27,161 @@
   </div> <!-- End of logo/title -->
   
 <nav>
-    <ul>
+  <ul>
 	<li><a href="index.html">What we do</a></li>
     <li class="current"><a href="news.html">News and Events</a></li>
     <li><a href="involved.html">Get involved</a></li>
     <li><a href="promotional.html">Promotional</a></li>
 	<li><a href="social.html">Social</a></li>
 	<li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav> <!-- End of navigation bar -->
+  </ul>
+</nav> <!-- End of navigation bar -->
 </header> <!-- End of header -->
 
+<div class="container">
+<h2 class="h2box">Latest News</h2>
+</div>
+
+<section id="boxes">
+  <div class="container">
+    <div class="box">
+      <ul>
+	<img src="img/3.jpg" width="80%" height="80%" alt="From catastrophic natural disasters, to conflict, to spikes in malnutrition rates, we deliver immediate lifesaving services to families in distress all around the world">
+      </ul>
+	  <h2>EMERGENCY COUNTRIES</h2>
+      <p>From catastrophic natural disasters, to conflict, to spikes in malnutrition rates, we deliver immediate lifesaving services to families in distress all around the world</p>
+	  <button class="donatebtn" onclick="window.location.href='#emergencycountries'">Read More</button>
+    </div>
+	<div class="box">
+      <ul>
+	<img src="img/4.jpg" width="80%" height="80%" alt="Starving child in hospital with food IV drip in Yemen.">
+      </ul>
+	  <h2>YEMEN CAN'T WAIT</h2>
+      <p>As violence in Yemen nears its fourth year, the country is facing the world’s worst humanitarian crisis in decades. More than 14 million people are facing starvation and an estimated 85,000 children may have died from extreme hunger since the start of the conflict.</p>
+	  <button class="donatebtn" onclick="window.location.href='#yemen'">Read More</button>
+    </div>
+	<div class="box">
+      <ul>
+	<img src="img/5.jpg" width="80%" height="80%" alt="From catastrophic natural disasters, to conflict, to spikes in malnutrition rates, we deliver immediate lifesaving services to families in distress all around the world">
+      </ul>
+	  <h2>EDUCATION OR FOOD? IN AFGHANISTAN</h2>
+      <p>There is little hope for many who want to leave the refugee camps in the capital city of Afghanistan, Kabul. Their children's survival, rather than their education, is the priority of many mothers in Afghanistan. The children sell plastic bags and contribute with a meager income.</p>
+	  <button class="donatebtn" onclick="window.location.href='#education'">Read More</button>
+    </div>
+</section> <!-- End of News Boxes -->
+
+<div class="container">
+  <h2 class="h2box">Latest Events</h2>
+</div>
+
+<section id="boxes">
+  <div class="container">
+    <div class="box">
+      <ul>
+	<img src="img/dinner.jpg" width="80%" height="80%" alt="Group of volunteers in a bar drinking and eating food">
+      </ul>
+	  <h2>Hawksmoor Fundraiser Dinner</h2>
+      <p>Join us again for the Hawksmoor Fundraiser Dinner , as some of the country's best volunteers join forces for Good Causes Inc.</p>
+	  <button class="donatebtn" onclick="window.location.href='#dinner'">Read More</button>
+    </div>
+	<div class="box">
+      <ul>
+	<img src="img/students.jpg" width="80%" height="80%" alt="Bunch of students outside with buckets filled with money fundraising for charity.">
+      </ul>
+	  <h2>Students Give Back!</h2>
+      <p>If you are a student and want to give back to the community come join this event and help fundraise for us!</p>
+	  <button class="donatebtn" onclick="window.location.href='#studentfund'">Read More</button>
+    </div>
+    <div class="box">
+      <ul>
+	<img src="img/outsideevent.jpg" width="80%" height="80%" alt="Outside with bouncy castles and bunch of people having fun with volunteers in chairty.">
+      </ul>
+	  <h2>Bouncy Castle Outting</h2>
+      <p>Join us outside our office building in the local park for a day of fun with bouncy castles and food!</p>
+	  <button class="donatebtn" onclick="window.location.href='#castle'">Read More</button>
+    </div>
+</section> <!-- End of Event Boxes -->
+
+<!-- List of Modal Pop-up Boxes For News and Events -->
+
+<div id="emergencycountries" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<center><img src="img/3.jpg" width="80%" height="80%" alt="From catastrophic natural disasters, to conflict, to spikes in malnutrition rates, we deliver immediate lifesaving services to families in distress all around the world">
+		<h2>EMERGENCY COUNTRIES</h2></center>
+		<p>From catastrophic natural disasters, to conflict, to spikes in malnutrition rates, we deliver immediate lifesaving services to families in distress all around the world.</p>
+	</div>
+</div> <!-- End of News Modal Pop-up #1 -->
+
+<div id="yemen" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<center><img src="img/4.jpg" width="80%" height="80%" alt="Starving child in hospital with food IV drip in Yemen.">
+		<h2>YEMEN CAN'T WAIT</h2></center>
+		<p>As violence in Yemen nears its fourth year, the country is facing the world’s worst humanitarian crisis in decades. More than 14 million people are facing starvation and an estimated 85,000 children may have died from extreme hunger since the start of the conflict.</p>
+	</div>
+</div> <!-- End of News Modal Pop-up #2 -->
+
+<div id="education" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<center><img src="img/5.jpg" width="80%" height="80%" alt="From catastrophic natural disasters, to conflict, to spikes in malnutrition rates, we deliver immediate lifesaving services to families in distress all around the world">
+		<h2>EDUCATION OR FOOD? IN AFGHANISTAN</h2></center>
+		<p>There is little hope for many who want to leave the refugee camps in the capital city of Afghanistan, Kabul. Their children's survival, rather than their education, is the priority of many mothers in Afghanistan. The children sell plastic bags and contribute with a meager income.</p>
+	</div>
+</div> <!-- End of News Modal Pop-up #3 -->
+
+<div id="dinner" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<center><img src="img/dinner.jpg" width="80%" height="80%" alt="Group of volunteers in a bar drinking and eating food">
+		<h2>Hawksmoor Fundraiser Dinner</h2></center>
+		<p>Join us again for the Hawksmoor Fundraiser Dinner , as some of the country's best volunteers join forces for Good Causes Inc.</p>
+	</div>
+</div> <!-- End of Event Modal Pop-up #1 -->
+
+<div id="studentfund" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<center><img src="img/students.jpg" width="80%" height="80%" alt="Bunch of students outside with buckets filled with money fundraising for charity.">
+		<h2>Students Give Back!</h2></center>
+		<p>If you are a student and want to give back to the community come join this event and help fundraise for us!</p>
+	</div>
+</div> <!-- End of Event Modal Pop-up #2 -->
+
+<div id="castle" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<center><img src="img/outsideevent.jpg" width="80%" height="80%" alt="Outside with bouncy castles and bunch of people having fun with volunteers in chairty.">
+		<h2>Bouncy Castle Outting</h2></center>
+		<p>Join us outside our office building in the local park for a day of fun with bouncy castles and food!</p>
+	</div>
+</div> <!-- End of Event Modal Pop-up #3 -->
+
+<!-- End Of List of Modal Boxes for News and Events -->
+
+<footer>
 <section id="newsletter">
   <div class="container">
     <h1>Subscribe To Our Newsletter</h1>
     <form>
-      <input type="email" placeholder="Enter Email">
-      <button type="submit" class="button1">Subscribe</button>
+      <input type="email" placeholder="Enter Email" required>
+      <button type="submit" class="button1" value="submit">Subscribe</button>
     </form>
   </div>
 </section> <!-- End of Newsletter -->
-
-<section id="boxes">
-  <div class="container">
-    <p>PLACEHOLDER TEXT<p>
-  </div>
-</section> <!-- End of Section Donation Boxes -->
-
-<footer>
 <p>Good Causes Inc is a charity, non-profit organization purely funded from our supporters, Donations and contributions are tax-deductible as allowed by law &copy; 2018</p>
+<div class="footer-social-icons">
+  <h4 class="_14">Follow us on</h4>
+  <ul class="social-icons">
+    <li><a href="https://www.facebook.com/ActionAgainstHungerUK" target="_blank" class="social-icon"> <i class="fab fa-facebook-square"></i></a></li>
+    <li><a href="https://twitter.com/ACF_UK" target="_blank" class="social-icon"> <i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.youtube.com/user/ACFUK" target="_blank" class="social-icon"> <i class="fab fa-youtube"></i></a></li>
+    <li><a href="https://uk.linkedin.com/company/action-against-hunger-acf-uk" target="_blank" class="social-icon"> <i class="fab fa-linkedin"></i></a></li>
+    <li><a href="https://plus.google.com/+ACFUK" target="_blank" class="social-icon"> <i class="fab fa-google-plus"></i></a></li>
+  </ul>
+</div> <!-- End of Social Media Icons -->
 </footer> <!-- End of copyright -->
-
-</div> <!-- End of main div -->
 
 </body> <!-- End of body Tag -->
 
