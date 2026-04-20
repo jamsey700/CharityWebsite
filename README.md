@@ -1,4 +1,4 @@
-# Website Development Project for my course at Belfast Met.
+# Website Development Project for my course at college.
 
 Currently work in progress will keep updating with latest code whenever I work on it.
 
